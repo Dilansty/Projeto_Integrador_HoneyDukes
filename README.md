@@ -23,13 +23,14 @@ Desenvolver em equipe uma plataforma de e-commerce (loja virtual) temática para
 ### Justificativa do Projeto
 Consolidar de forma prática e integrada os conhecimentos adquiridos nas disciplinas de Projetos, Banco de Dados, Backend e Frontend. O projeto justifica-se pela necessidade de criar uma aplicação completa com API própria funcional e persistência de dados, preparando a equipe para os desafios reais do mercado de desenvolvimento web.
 
-## Critérios de Aceite
-| EndPoint        | Critério                                              |
-| :---            | :---                                                  |
-| implement-data  | POST retorna 201 e persiste o registro no banco       |
-| search-data     | GET retorna 200 com lista/item correto                |
-| renew-data      | PUT retorna 200 e atualiza o registro no banco        |
-| exclude-data    | DELETE retorna 200/204 e remove o registro do banco   |
+## Critérios de Aceite da API (Rotas RESTful)
+| EndPoint | Critério |
+| :--- | :--- |
+| `POST /produtos` | Cria um novo doce. Retorna status `201 Created` e persiste o registro no banco de dados. |
+| `GET /produtos` | Lista os doces. Retorna status `200 OK` com a listagem completa ou filtros por categoria. |
+| `GET /produtos/:id` | Busca detalhada. Retorna status `200 OK` com os detalhes do produto correto baseado no ID. |
+| `PUT /produtos/:id` | Atualiza um doce. Retorna status `200 OK` e altera as informações persistidas no banco. |
+| `DELETE /produtos/:id` | Remove um doce. Retorna status `200 OK` ou `204 No Content` e deleta o registro do banco. |
 
 ### Descrição do Projeto e Principais Requisitos
 * #### Descrição Geral
