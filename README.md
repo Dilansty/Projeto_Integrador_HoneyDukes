@@ -99,3 +99,16 @@ SENAI Prof° Vicente Amato
 2. **Complexidade no JS Puro:** Possível atraso no desenvolvimento da reatividade e componentes do Frontend devido à restrição de não usar frameworks estruturados.
 3. **Problemas de Versionamento (Conflitos no Git):** Risco de perda de código ou atrasos nas entregas por falta de sincronia e falta de domínio em resoluções de *merge conflicts* nos repositórios.
 4. **Curto Espaço de Tempo entre as Sprints:** O intervalo de apenas 2 dias entre a Sprint 1 e a Sprint 2 exige agilidade extrema para não acumular demandas para a entrega final.
+
+## Fluxo de Caixa do Projeto
+
+o custo de desenvolvimento (5 Desenvolvedores Juniores a R$ 25,00/h), a infraestrutura cloud 100% gratuita (Free Tier) e uma receita simulada baseada no valor de mercado do sistema entregue.
+
+### Resumo de Custos e Investimentos (Orçamento de Partida)
+| Categoria | Descrição / Recurso | Custo Estimado (R$) |
+| :--- | :--- | :--- |
+| **Desenvolvedores** | 5 Desenvolvedores Junior (Taxa média de R$ 25,00/h x 60h por integrante) | R$ 7.500,00 |
+| **Infraestrutura Cloud** |Servidores e banco de dados (Railway + Vercel (Ferramentas Gratuitas) | R$ 0,00 |
+| **Ferramentas & Design** | Licenças extras de software e colaboração (Figma Team/GitHub) | R$ 0,00 |
+| **Reserva de Contingência**| Margem de 10% para imprevistos técnicos (atrasos ou refatorações) | R$ 765,00 |
+| **VALOR TOTAL DO PROJETO**| **Custo Total de Desenvolvimento** | **R$ 8.415,00** |
